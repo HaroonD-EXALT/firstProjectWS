@@ -5,7 +5,7 @@ import com.aerospike.mapper.annotations.AerospikeRecord;
 
 import javax.xml.bind.annotation.XmlRootElement;
 
-@XmlRootElement
+//@XmlRootElement
 @AerospikeRecord(namespace = "test", set = "courses")
 public class Course {
     @AerospikeKey

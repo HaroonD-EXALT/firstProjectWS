@@ -7,7 +7,7 @@ import javax.xml.bind.annotation.XmlRootElement;
 import java.util.ArrayList;
 import java.util.List;
 
-@XmlRootElement
+//@XmlRootElement
 @AerospikeRecord(namespace = "test", set = "students")
 public class Student {
     @AerospikeKey

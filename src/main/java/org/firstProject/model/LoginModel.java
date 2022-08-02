@@ -2,7 +2,7 @@ package org.firstProject.model;
 
 import javax.xml.bind.annotation.XmlRootElement;
 
-@XmlRootElement
+//@XmlRootElement
 public class LoginModel {
     private String username;
     private String password;

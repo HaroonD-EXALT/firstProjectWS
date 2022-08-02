@@ -6,11 +6,9 @@ import com.aerospike.mapper.annotations.AerospikeRecord;
 import javax.xml.bind.annotation.XmlRootElement;
 import java.io.Serializable;
 
-@XmlRootElement
+//@XmlRootElement
 @AerospikeRecord(namespace="test", set="admins")
 public class Admin implements Serializable {
-
-    private static final long serialVersionUID = -5577579081118070434L;
     @AerospikeKey
     private long id;
     private String name;
